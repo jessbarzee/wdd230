@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header, main, footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+header, footer {
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #b8b8ff;
+    color: 	#3D3D3D;
+    text-align: center;
+}
+
+main{
+    display: grid;
+}
+
+h3 {
+    background-color: #9381ff;
+    border-radius: 15px 15px 0px 0px;
+}
+
+h3, h4, p, img {
+    padding: 1rem;
+}
+
+.hicks_law{
+    grid-column: 1/2;
+    color: #3D3D3D;
+    background-color: #F8F7FF;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contrast{
+    grid-column: 2/3;
+    color: #3D3D3D;
+    background-color: #F8F7FF;
+    margin: .5rem auto;
+    padding: 10px;
+}
+
+.alignment {
+    grid-column: 3/4;
+    color: #3D3D3D;
+    background-color: #F8F7FF;
+    margin: 10px;
+    padding: 10px;
+}
+
+.hicks_law img {
+    max-width: 90%;
+}
+
+.contrast img{
+    max-width: 90%;
+}
+
+.alignment img{
+    max-width: 90%;
+}
+
+footer {
+    margin: 0 auto;
+}
+

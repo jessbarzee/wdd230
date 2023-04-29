@@ -1,0 +1,14 @@
+@media only screen and (max-width: 64em) {
+     .hicks_law{
+        grid-row: 1/2
+    }
+    
+    .contrast{
+        grid-row: 1/2
+    } 
+    
+    .alignment {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+}
