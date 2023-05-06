@@ -1,0 +1,10 @@
+@media only screen and (max-width: 64em) {
+
+    .logo {
+        grid-column: 1/2;
+    }
+
+    .site_purpose {
+        grid-column: 2/3;
+    }
+}
