@@ -22,14 +22,9 @@ header, footer {
     border-radius: 25px;
 }
 
-/* header {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    align-items: center;
-} */
-
-.nav ul {
+nav ul {
     list-style-type: none;
+    overflow: hidden;
     display: flex;
     margin: 0;
     padding: 0;
@@ -37,15 +32,26 @@ header, footer {
     justify-content: space-around;
 }
 
-.nav li a{
+nav ul li { 
+    flex: 1 1 auto; 
+}
+
+nav ul li a{
     display: block;
     padding: 1rem;
     text-decoration: none;
     background-color: #fefae0;
+    color: black;
     border: 1px solid #d4a373;
     border-radius: 25px;
     font-size: 1.2rem;
 }
+
+nav a:hover {
+    background-color: #d4a373;
+    color: black;
+}
+
 
 main{
     display: grid;
