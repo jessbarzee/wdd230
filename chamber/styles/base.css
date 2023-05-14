@@ -53,7 +53,7 @@ h1 {
 nav {
     grid-column: 1/5;
     grid-row: 2/3;
-    background-color: #606c38;
+    background-color: #fefae0;
 }
 
 nav button {
@@ -76,7 +76,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #fefae0;
+    color: black;
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
