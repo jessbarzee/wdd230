@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header, main, footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header, footer {
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #606c38;
+    color: #fefae0;
+    text-align: center;
+    align-items: center;
+    border: #606c38;
+    display: grid;
+}
+
+
+.logo img {
+    width: 60%;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-content: left;
+    padding: 0.5rem;
+}
+
+h1 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: left;
+    font-size: 8pt;
+    padding: 2rem;
+}
+
+#hamButton {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: fit-content;
+	font-size: 1.5rem;
+	padding: .5rem;
+	color: black;
+}
+
+nav {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    background-color: #606c38;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    display: none;
+	flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #fefae0;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #ccd5ae;
+    color: black;
+
+}
+
+.responsive li {
+	display: block;
+	width: 100%;
+}
+
+.mainnav.responsive li a {
+	display: block;
+}
+
+.social_media a img {
+    width: 20%;
+    height: auto;
+}
+
+aside {
+	margin: 0.5rem;
+	border: 1px solid #ccd5ae;
+	padding: 0.75rem 1rem;
+	background-color: #ccd5ae;
+    color: black;
+
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+main {
+    display: grid;
+}
+
+.hero_cta {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: solid 1px #555;
+    background-color: #ccd5ae;
+
+}
+
+.event {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: solid 1px #555;
+    background-color: #ccd5ae;
+}
+
+.weather {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: solid 1px #555;
+    background-color: #ccd5ae;
+}
+
+.join {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: solid 1px #555;
+    background-color: #ccd5ae;
+}
+
+.new_release {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: solid 1px #555;
+    background-color: #ccd5ae;
+}
+
+.spotlights {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: solid 1px #555;
+    background-color: #ccd5ae;
+}
+
+footer p {
+    margin: .75rem;
+}
+
+.footer_logo img {
+    width: 30%;
+    height: auto;
+    padding: .45rem;
+
+}
+
+.contact_map a {
+    text-decoration: none;
+    color: #fefae0;
+}
+
+.contact_map img {
+    width: 3%;
+    height: auto;
+}
+
+
+

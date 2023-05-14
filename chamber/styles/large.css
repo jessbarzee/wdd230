@@ -1,0 +1,97 @@
+@media only screen and (min-width: 64em) {
+
+    h1{
+        font-size: 22pt;
+    }
+
+    nav ul#primaryNav{
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+		display: block;
+		flex: 1 1 auto;
+	}
+
+    nav ul li a {
+        text-decoration: none;
+        border: 1px solid #283618;
+    }
+
+    #hamButton {
+		display: none;
+	} 
+
+    main {
+        display: grid;
+    }
+
+    .event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .hero_cta {
+        grid-column: 2/4;
+        grid-row: 1/3;
+    }
+
+    .spotlights {
+        grid-column: 4/5;
+        grid-row: 1/4;
+    }
+
+    .weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .join  {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .new_release {
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+
+    footer {
+        display: grid;
+    }
+
+    .footer_logo {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .footer_logo img {
+        width: 45%;
+        height: auto;
+    }
+
+    .address {
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+
+    .contact_map {
+        grid-column: 4/5;
+        grid-row: 1/2;
+
+    }
+
+    .copyright {
+        grid-column: 1/5;
+        grid-row: 2/3;
+
+        border-top: solid 1px #ccd5ae;
+    }
+	
+}

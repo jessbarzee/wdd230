@@ -1,0 +1,71 @@
+@media only screen and (min-width: 32em) {
+    h1 {
+        font-size: 16pt;
+    }
+
+    main {
+        display: grid;
+    }
+
+    .hero_cta {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    .new_release {
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
+    .spotlights {
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+
+    .join {
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+
+    .event {
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+
+    .weather {
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+
+    footer {
+        display: grid;
+    }
+
+    .footer_logo {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .footer_logo img {
+        width: 70%;
+        height: auto;
+    }
+
+    .address {
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+
+    .contact_map {
+        grid-column: 4/5;
+        grid-row: 1/2;
+
+    }
+
+    .copyright {
+        grid-column: 1/5;
+        grid-row: 2/3;
+
+        border-top: solid 1px #ccd5ae;
+    }
+}
