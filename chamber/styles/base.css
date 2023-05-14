@@ -28,7 +28,6 @@ header, footer {
     height: auto;
     grid-column: 1/2;
     grid-row: 1/2;
-    align-content: left;
     padding: 0.5rem;
 }
 
