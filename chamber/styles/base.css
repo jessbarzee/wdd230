@@ -24,7 +24,7 @@ header, footer {
 
 
 .logo img {
-    width: 60%;
+    width: 100px;
     height: auto;
     grid-column: 1/2;
     grid-row: 1/2;
@@ -100,8 +100,10 @@ nav ul li a:hover {
 }
 
 .social_media a img {
-    width: 20%;
+    width: 40px;
     height: auto;
+    
+    margin-left: 0.5rem;
 }
 
 aside {
@@ -115,59 +117,24 @@ aside {
     grid-row: 3/4;
 }
 
-main {
+.homepage_main {
     display: grid;
 }
 
-.hero_cta {
-    padding: 1rem;
-    margin: 0.5rem;
-    border: solid 1px #555;
-    background-color: #ccd5ae;
-
-}
-
-.event {
+.cards {
     padding: 1rem;
     margin: 0.5rem;
     border: solid 1px #555;
     background-color: #ccd5ae;
 }
 
-.weather {
-    padding: 1rem;
-    margin: 0.5rem;
-    border: solid 1px #555;
-    background-color: #ccd5ae;
-}
-
-.join {
-    padding: 1rem;
-    margin: 0.5rem;
-    border: solid 1px #555;
-    background-color: #ccd5ae;
-}
-
-.new_release {
-    padding: 1rem;
-    margin: 0.5rem;
-    border: solid 1px #555;
-    background-color: #ccd5ae;
-}
-
-.spotlights {
-    padding: 1rem;
-    margin: 0.5rem;
-    border: solid 1px #555;
-    background-color: #ccd5ae;
-}
 
 footer p {
     margin: .75rem;
 }
 
 .footer_logo img {
-    width: 30%;
+    width: 115px;
     height: auto;
     padding: .45rem;
 

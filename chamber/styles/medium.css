@@ -1,10 +1,17 @@
 @media only screen and (min-width: 32em) {
+    
+    .logo img {
+        width: 135px;
+        height: auto;
+    }
+    
     h1 {
         font-size: 16pt;
     }
 
-    main {
-        display: grid;
+    .social_media a img {
+        width: 50px;
+        height: auto;
     }
 
     .hero_cta {
@@ -47,7 +54,7 @@
     }
 
     .footer_logo img {
-        width: 70%;
+        width: 115px;
         height: auto;
     }
 

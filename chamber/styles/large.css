@@ -1,7 +1,17 @@
 @media only screen and (min-width: 64em) {
 
+    .logo img {
+        width: 175px;
+        height: auto;
+    }
+
     h1{
         font-size: 22pt;
+    }
+
+    .social_media a img {
+        width: 60px;
+        height: auto;
     }
 
     nav ul#primaryNav{
@@ -27,10 +37,6 @@
     #hamButton {
 		display: none;
 	} 
-
-    main {
-        display: grid;
-    }
 
     .event {
         grid-column: 1/2;
@@ -72,7 +78,7 @@
     }
 
     .footer_logo img {
-        width: 45%;
+        width: 125px;
         height: auto;
     }
 
