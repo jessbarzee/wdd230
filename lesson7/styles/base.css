@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+h1 {
+    margin: .5rem;
+}
+
+.pictures {
+    display: grid;
+}
+
+.pics {
+    margin: .5rem;
+}
+
+.pics img[data-src] {
+    filter: blur(0.2em);
+}
+
+.pics img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.pic1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.pic2 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.pic3 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.pic4 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.pic5 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
