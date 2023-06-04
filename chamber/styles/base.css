@@ -1,3 +1,4 @@
+/* All pages */
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +23,8 @@ header, footer {
     display: grid;
 }
 
+
+/* Homepage */
 .homepage_header {
     position: relative;
 }
@@ -124,7 +127,7 @@ aside {
     grid-row: 3/4;
 }
 
-span {
+.meeting_reminder span {
     margin: 0.5rem;
 	border: 1px solid #ccd5ae;
 	padding: 0.75rem 1rem;
@@ -176,11 +179,17 @@ span {
     color: #fefae0;
 }
 
-
 .spotlights h2, p {
     margin: 0.5rem;
 }
 
+
+/* Discover Page */
+
+
+
+
+/* All Pages */
 footer p {
     margin: .75rem;
 }

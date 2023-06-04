@@ -34,7 +34,7 @@
             <button id="hamButton">&#9776;</button> 
             <ul id="primaryNav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Discover</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
@@ -43,7 +43,7 @@
 
         <aside></aside>
 
-        <span></span>
+        <span class="meeting_reminder"></span>
 
     </header>
 
@@ -51,17 +51,16 @@
 
         <div class="hero_cta cards">
 
-            <!-- <img src="images/banner_img.jpeg" alt="Star Valley, WY"> -->
-            <!-- <img srcset="images/wdd230-org.jpg, images/wdd230-org-med.jpg 1.5x, images/wdd230-org-lg.jpg 2x"
-                src="imaged/wdd230-org"
-                alt="temporary image"> -->
+            <!-- <picture> 
+                <source media="(min-width: 1100px)" srcset="./images/banner_img.jpeg">
+                <source media="(min-width: 800px)" srcset="./images/banner_img.jpeg">
+                <img  srcset="./images/banner_img.jpeg">
+            </picture> -->
 
             <picture> 
                 <source media="(min-width: 1100px)" srcset="./images/wdd230-org-lg.jpg">
                 <source media="(min-width: 800px)" srcset="./images/wdd230-org-med.jpg">
                 <img  srcset="./images/wdd230-org.jpg">
-                
-                
             </picture>
              
         
@@ -77,10 +76,19 @@
 
         <div class="weather cards">
             <h2>Weather</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores assumenda non praesentium nesciunt 
-                pariatur ad, dignissimos, illo est, consequatur sed saepe accusantium voluptate voluptas animi ex ipsa 
-                corporis ipsam unde.
-            </p>
+
+            <picture>
+                <source media="(min-width:1100px" srcset="./images/weather-cutout.png">
+                <source media="(min-width:800px" srcset="./images/weather-cutout.png">
+                <img srcset="./images/weather-cutout.png" alt="weather cut out">
+            </picture>
+
+            <p id="temperature">temperature</p>
+
+            <hr>
+
+            <p>Wind Speed:</p>
+            <p>Wind Chill:</p>
         </div>
 
         <div class="join cards">
@@ -117,7 +125,7 @@
 
     <footer>
         <div class="footer_logo">
-            <img src="images/starvalley_coc_logo.png" alt="Star Valley Ranch Logo">
+            <img src="images/starvalley_coc_logo.webp" alt="Star Valley Ranch Logo">
         </div>
 
         <div class="address">
