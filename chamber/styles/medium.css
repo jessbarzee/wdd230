@@ -75,4 +75,10 @@
 
         border-top: solid 1px #ccd5ae;
     }
+
+    /* Discover Page */
+
+    .discover_cards picture img:hover {
+        box-shadow: 0 0 50px #606c38;
+    }
 }

@@ -127,7 +127,7 @@ aside {
     grid-row: 3/4;
 }
 
-.meeting_reminder span {
+.meeting_reminder {
     margin: 0.5rem;
 	border: 1px solid #ccd5ae;
 	padding: 0.75rem 1rem;
@@ -186,8 +186,40 @@ aside {
 
 /* Discover Page */
 
+.discover_cards {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: solid 1px #555;
+    background-color: #ccd5ae;
 
+    display: grid;
+}
 
+.discover_cards h2 {
+    text-align: center;
+    color: black;
+
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.discover_cards picture {
+    grid-column: 1/2;
+    grid-row: 2/5;
+
+    margin: 0.5rem;
+}
+
+.discover_cards picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.discover_cards p {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: left;
+}
 
 /* All Pages */
 footer p {
