@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join page for the Star Valley Ranch Chamber of Commerce Site">
+    <title>Star Valley Chamber of Commerce Join Page</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="homepage_header">
+        <div class="logo">
+            <img src="images/starvalley_coc_logo.webp" alt="Star Valley Ranch Logo" width="175" height="175">
+        </div>
+        <h1>Star Valley Ranch Chamber of Commerce</h1>
+
+        <div class="social_media">
+            <a href="https://www.facebook.com/"><img src="images/facebook_logo.png" alt="Facebook Logo"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram_logo.png" alt="Instagram Logo"></a>
+        </div>
+
+        <nav>
+            <button id="hamButton">&#9776;</button> 
+            <ul id="primaryNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <aside></aside>
+
+        <span class="meeting_reminder"></span>
+
+    </header>
+
+    <main class="join_main">
+        <form method="get "action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">First Last*<input type="text" name="lname" required></label>
+                <label class="top">Business Position<input type="text" name="position"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required ></label>
+                <label class="top">Cellphone* <input type="tel" name="cellphone" placeholder="12345551234" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business and Membership Info</legend>
+                <label class="top">Name of Business* <input type="text" name="title" required></label>
+
+                <div>Membership Level</div>
+                <label class="sbs"><input type="radio" name="membership" value="np">NP Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership</label>
+
+                <label class="top">Description of Business <input type="textarea" name="description"></label>
+
+                <!-- A hidden field that contains the current date and time that the form was loaded by the user. -->
+            </fieldset>
+            <input type="submit" value="Join the Chamber!" class="submitButton">
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer_logo">
+            <img src="images/starvalley_coc_logo.webp" alt="Star Valley Ranch Logo">
+        </div>
+
+        <div class="address">
+            <p>Star Valley Ranch Chamber of Commerce <br> 555 Vista Lane <br> Valley Ranch, Wymoing 83127</p>
+        </div>
+
+        <div class="contact_map">
+            <p>info@svrchamber.org <br> +1(307) 555-5555</p>
+            <a href="https://www.google.com/maps/place/Star+Valley+Ranch,+WY+83127/@42.9823025,-111.0069528,13z/data=!3m1!4b1!4m6!3m5!1s0x8756030a17653fb1:0x41c86a4422b14453!8m2!3d42.9713889!4d-110.9555556!16zL20vMDExZnpt"><img src="images/location_pin.png" alt="location pin image">Location Info</a>
+        </div>
+
+        <div class="copyright">
+           <p> &copy;2023 Star Valley Ranch Chamber | Jessica L. Hansen | WDD 230 Project | <span id='lastupdated'></span> </p>
+        </div>
+    </footer>
+
+    <script src="scripts/dateModified.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/meetingReminder.js"></script>
+    <script src="scripts/windchill.js"></script>
+    
+</body>
+</html>
