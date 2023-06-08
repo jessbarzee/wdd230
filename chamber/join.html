@@ -48,7 +48,7 @@
 
     <main class="join_main">
         <h2>Please fill out the folling form to join the Star Valley Ranch Chamber of Commerce:</h2>
-        <form method="get "action="thankyou.html">
+        <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Applicant Information</legend>
                 <label class="top">First Name*<input type="text" name="fname" required></label>
@@ -56,6 +56,7 @@
                 <label class="top">Business Position<input type="text" name="position" pattern="[A-Za-z \-]{7,}"></label>
                 <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required ></label>
                 <label class="top">Cellphone* <input type="tel" name="cellphone" placeholder="12345551234" required></label>
+                <label><input type="hidden" name="dateSubmitted" value="todayDate"></label>
             </fieldset>
 
             <fieldset>
@@ -133,53 +134,6 @@
                     </tbody>
                 </table>
             </fieldset>
-
-            <!-- <table class="membership_tbl">
-                <h2>Membership Levels</h2>
-                <thead>
-                    <tr>
-                        <th>&nbsp;</th>
-                        <th>NP</th>
-                        <th>Bronze</th>
-                        <th>Silver</th>
-                        <th>Gold</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Feature 1</th>
-                        <td>X</td>
-                        <td>X</td>
-                        <td>X</td>
-                        <td>✓</td>
-                    </tr>
-    
-                    <tr>
-                        <th>Feature 2</th>
-                        <td>X</td>
-                        <td>X</td>
-                        <td>✓</td>
-                        <td>✓</td>
-                    </tr>
-    
-                    <tr>
-                        <th>Feature 3</th>
-                        <td>X</td>
-                        <td>✓</td>
-                        <td>✓</td>
-                        <td>✓</td>
-                    </tr>
-
-                    <tr>
-                        <th>Feature 4</th>
-                        <td>✓</td>
-                        <td>✓</td>
-                        <td>✓</td>
-                        <td>✓</td>
-                    </tr>
-                </tbody>
-            </table> -->
-
             <input type="submit" value="Join the Chamber!" class="submitButton">
         </form>
     </main>
