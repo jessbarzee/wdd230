@@ -32,7 +32,7 @@
         <nav>
             <button id="hamButton">&#9776;</button> 
             <ul id="primaryNav">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
@@ -47,30 +47,139 @@
     </header>
 
     <main class="join_main">
+        <h2>Please fill out the folling form to join the Star Valley Ranch Chamber of Commerce:</h2>
         <form method="get "action="thankyou.html">
             <fieldset>
                 <legend>Applicant Information</legend>
                 <label class="top">First Name*<input type="text" name="fname" required></label>
                 <label class="top">First Last*<input type="text" name="lname" required></label>
-                <label class="top">Business Position<input type="text" name="position"></label>
+                <label class="top">Business Position<input type="text" name="position" pattern="[A-Za-z \-]{7,}"></label>
                 <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required ></label>
                 <label class="top">Cellphone* <input type="tel" name="cellphone" placeholder="12345551234" required></label>
             </fieldset>
 
             <fieldset>
-                <legend>Business and Membership Info</legend>
+                <legend>Business Information</legend>
                 <label class="top">Name of Business* <input type="text" name="title" required></label>
-
-                <div>Membership Level</div>
-                <label class="sbs"><input type="radio" name="membership" value="np">NP Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership</label>
-
                 <label class="top">Description of Business <input type="textarea" name="description"></label>
-
+            </fieldset>   
+            
+            <fieldset class="membership_info">
+                <legend>Membership Level</legend>
+                <div class="membership_lvls">
+                    <label class="sbs"><input type="radio" name="membership" value="nonprofit"> Non Profit (NP)</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                </div>
+            
                 <!-- A hidden field that contains the current date and time that the form was loaded by the user. -->
+
+                <table class="membership_tbl">
+                    <thead>
+                        <tr>
+                            <th colspan="5" scope="colgroup">Chamber of Commerce Membership Benefits</th>
+                        </tr>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th>NP</th>
+                            <th>Bronze 🥉 </th>
+                            <th>Silver 🥈 </th>
+                            <th>Gold 🥇 </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Admission to Forums and Seminars</th>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+        
+                        <tr>
+                            <th>Forum Spotlight</th>
+                            <td>❌</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+        
+                        <tr>
+                            <th>Recommendations</th>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+    
+                        <tr>
+                            <th>Discounted Event Rates</th>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <th>Monthly Fee</th>
+                            <td>None</td>
+                            <td>$50</td>
+                            <td>$75</td>
+                            <td>$95</td>
+                        </tr>
+                        <!-- <tr>
+                            <th colspan="5" scope="colgroup">*NP stands for Nonprofit Organizations for which there is no fee</th>
+                        </tr> -->
+                    </tbody>
+                </table>
             </fieldset>
+
+            <!-- <table class="membership_tbl">
+                <h2>Membership Levels</h2>
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>NP</th>
+                        <th>Bronze</th>
+                        <th>Silver</th>
+                        <th>Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Feature 1</th>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>✓</td>
+                    </tr>
+    
+                    <tr>
+                        <th>Feature 2</th>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+    
+                    <tr>
+                        <th>Feature 3</th>
+                        <td>X</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+
+                    <tr>
+                        <th>Feature 4</th>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                </tbody>
+            </table> -->
+
             <input type="submit" value="Join the Chamber!" class="submitButton">
         </form>
     </main>

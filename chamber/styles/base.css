@@ -42,9 +42,14 @@ h1 {
     grid-column: 2/4;
     grid-row: 1/2;
     text-align: left;
-    font-size: 8pt;
+    font-size: 10pt;
     padding: 2rem;
-    text-align: center;
+    text-align: left;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #fefae0;
 }
 
 #hamButton {
@@ -153,6 +158,10 @@ aside {
     text-align: center;
 }
 
+.event {
+    text-align: center;
+}
+
 .hero_cta {
     position: relative;
 }
@@ -179,8 +188,21 @@ aside {
     color: #fefae0;
 }
 
+.spotlights {
+    text-align: center;
+}
+
+.spotlights img {
+    width: 50px;
+    height: auto;
+}
+
 .spotlights h2, p {
     margin: 0.5rem;
+}
+
+.spotlights p {
+    text-align: left;
 }
 
 
@@ -226,6 +248,32 @@ aside {
 }
 
 /* ------- Join Page ------- */
+
+/* .join_main {
+    background-color: #fefae0;
+} */
+
+.join_main h2 {
+    font-size: 12pt;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.membership_info {
+    display: grid;
+}
+
+.membership_tbl{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+}
+
+.membership_lvls{
+    grid-column: 1/2;
+    grid-row:2/3 ;
+}
+
 
 
 /* Form on Join Page */
@@ -280,9 +328,10 @@ form input.submitButton {
 }
 
 form input.submitButton:hover {
-    background-color: #fefae0;
-    color: #606c38;
+    background-color: #ccd5ae;
+    color: #333;
     border:  1px solid #606c38;
+    box-shadow: #606c38;
 }
 
 form label.top input:required {
@@ -292,6 +341,41 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
+/* Table on Join Page */
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px solid #3d405b;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+  
+td, th {
+    border: 1px solid #3d405b;
+    color: #fefae0;
+    padding: 10px 20px;
+}
+  
+th {
+    background-color: #606c38;
+}
+  
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: #ccd5ae;
+    color: #333;
+}
+  
+tr:nth-child(odd) td {
+    background-color: #fefae0;
+    color: #333;
+}
+
 
 /* ------- Thank You Page ------- */
 

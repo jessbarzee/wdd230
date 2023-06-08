@@ -7,6 +7,7 @@
 
     h1{
         font-size: 22pt;
+        text-align: center;
     }
 
     .social_media a img {
@@ -124,5 +125,20 @@
 
     .discover_cards picture img:hover {
         box-shadow: 0 0 50px #333;
+    }
+
+    /* Join Page */
+    .membership_info {
+        display: grid;
+    }
+    
+    .membership_lvls{
+        grid-column: 1/2;
+        grid-row:1/2 ;
+    }
+    
+    .membership_tbl{
+        grid-column:2/3 ;
+        grid-row: 1/2;
     }
 }
