@@ -1,0 +1,30 @@
+header, main, footer {
+    text-align: center;
+}
+
+header, footer {
+    background-color: #ee6c4d;
+    padding: 25px;
+}
+
+h1, h2 {
+    color: #293241;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards>* {
+    border: 1px solid #ee6c4d;
+    background-color: #98c1d9;
+
+    flex: 1 1 50px;
+    margin: 2px;
+
+}
