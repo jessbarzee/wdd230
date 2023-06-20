@@ -10,7 +10,7 @@ async function getDirectoryData() {
   getDirectoryData();
 
 const displayData = ((directory) => {
-    const cards = document.querySelector('div.cards'); // select the output container element
+    const cards = document.querySelector('div.directory_cards'); // select the output container element
   
     directory.forEach((business) => {
       // Create elements to add to the div.cards element
@@ -18,7 +18,7 @@ const displayData = ((directory) => {
       let h2 = document.createElement('h2');
       let p = document.createElement('p');
       let p2 = document.createElement('p');
-    //   let p3 = document.createElement('p');
+      let p3 = document.createElement('p');
     //   let p4 = document.createElement('p');
     //   let p5 = document.createElement('p');
       let logo = document.createElement('img');
@@ -26,16 +26,17 @@ const displayData = ((directory) => {
       // Build the h2 content out to show the prophet's full name - finish the template string
       h2.textContent = `${business.businessName}`;
       p.textContent =`${business.address}`;
-      p2.textContent =`${business.websiteurl}`;
+      p2.textContent =`Membership Level: ${business.membership_lvl}`;
+      p3.textContent =`Person of Contact: ${business.contactName}`
       
-    
   
       // Build the image portrait by setting all the relevant attribute
       logo.setAttribute('src', business.logo);
       logo.setAttribute('alt', `Logo for ${business.businessName}`);
       logo.setAttribute('loading', 'lazy');
-      logo.setAttribute('width', '100');
+      logo.setAttribute('width', '300');
       logo.setAttribute('height', 'auto');
+      
 
     //   p2.setAttribute('a', 'href');
     //   p2.setAttribute('src', directory.websiteurl);
@@ -43,8 +44,9 @@ const displayData = ((directory) => {
       // Append the section(card) with the created elements
       card.appendChild(logo);
       card.appendChild(h2);
-      card.appendChild(p);
       card.appendChild(p2);
+      card.appendChild(p3)
+      card.appendChild(p);
       
   
       cards.appendChild(card);

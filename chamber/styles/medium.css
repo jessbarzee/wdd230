@@ -82,4 +82,23 @@
     .discover_cards picture img:hover {
         box-shadow: 0 0 50px #606c38;
     }
+
+
+    /* Join Page */
+    
+    .directory_cards {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .directory_cards>* {
+        border: 1px solid #606c38;
+        background-color: #ccd5ae;
+        flex: 0 1 50px;
+        margin: 10px;
+
+    }
+
+
 }

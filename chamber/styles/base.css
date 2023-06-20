@@ -390,6 +390,35 @@ tr:nth-child(odd) td {
     max-width: 600px;
 }
 
+/* ------- Join Page ------- */
+
+.directory_main {
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.directory_cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.directory_cards>* {
+    border: 1px solid #606c38;
+    background-color: #ccd5ae;
+    flex: 0 1 50px;
+    margin: 10px;
+}
+
+.directory_cards img, h2, p {
+    padding: 10px;
+}
+
+
+
 /* ------- All Pages ------- */
 footer p {
     margin: .75rem;
