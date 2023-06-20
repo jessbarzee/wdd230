@@ -64,20 +64,20 @@
         },
 
         {
-            "businessName": "Spruce Moose Tree Farm",
-            "contactName": "Jessica Hansen",
-            "address": "107 Star View Circle",
+            "businessName": "Peppy's Western Shop",
+            "contactName": "Bart Maverick",
+            "address": "909 Stallion Drive, Star Valley, WY 83217",
             "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
-            "logo": "images/spruce_moose_logo.jpeg",
+            "logo": "images/western_shop_logo.png",
             "membership_lvl": "NP"
         },
 
         {
-            "businessName": "Spruce Moose Tree Farm",
-            "contactName": "Jessica Hansen",
-            "address": "107 Star View Circle",
+            "businessName": "Law Firm",
+            "contactName": "Milton Spaulding",
+            "address": "638 Justice Ave, Star Valley, WY 83217",
             "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
-            "logo": "images/spruce_moose_logo.jpeg",
+            "logo": "images/lawfrim_logo.png",
             "membership_lvl": "Bronze"
         }
     ]
