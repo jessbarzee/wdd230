@@ -15,7 +15,7 @@ const displayData = ((directory) => {
     directory.forEach((business) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
-      let h2 = document.createElement('h2');
+      let h3 = document.createElement('h3');
       let p = document.createElement('p');
       let p2 = document.createElement('p');
       let p3 = document.createElement('p');
@@ -24,7 +24,7 @@ const displayData = ((directory) => {
       let logo = document.createElement('img');
   
       // Build the h2 content out to show the prophet's full name - finish the template string
-      h2.textContent = `${business.businessName}`;
+      h3.textContent = `${business.businessName}`;
       p.textContent =`${business.address}`;
       p2.textContent =`Membership Level: ${business.membership_lvl}`;
       p3.textContent =`Person of Contact: ${business.contactName}`
@@ -43,7 +43,7 @@ const displayData = ((directory) => {
   
       // Append the section(card) with the created elements
       card.appendChild(logo);
-      card.appendChild(h2);
+      card.appendChild(h3);
       card.appendChild(p2);
       card.appendChild(p3)
       card.appendChild(p);

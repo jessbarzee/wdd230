@@ -274,7 +274,6 @@ aside {
 }
 
 
-
 /* Form on Join Page */
 form fieldset {
     margin: 2rem;
@@ -390,7 +389,7 @@ tr:nth-child(odd) td {
     max-width: 600px;
 }
 
-/* ------- Join Page ------- */
+/* ------- Directory Page ------- */
 
 .directory_main {
     margin: 0 auto;
@@ -398,6 +397,14 @@ tr:nth-child(odd) td {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+
+    background-color: #fefae0;
+}
+
+.directory_main h2 {
+    color: #333;
+    padding-bottom: 30px;
+    text-decoration: underline;
 }
 
 .directory_cards {
@@ -413,11 +420,9 @@ tr:nth-child(odd) td {
     margin: 10px;
 }
 
-.directory_cards img, h2, p {
+.directory_cards img, h3, p {
     padding: 10px;
 }
-
-
 
 /* ------- All Pages ------- */
 footer p {
