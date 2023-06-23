@@ -33,7 +33,7 @@ function displayResults(weatherData) {
     speed.innerHTML = `${weatherData.wind.speed.toFixed(0)}`;
 
 
-    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
     const desc = weatherData.weather[0].description;
 
     weatherIcon.setAttribute('src', iconsrc);
