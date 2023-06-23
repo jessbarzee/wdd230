@@ -81,22 +81,21 @@
         <div class="weather cards">
             <h2>Weather</h2>
 
-            <picture>
-                <source media="(min-width:1100px)" srcset="./images/weather-cutout.png">
-                <source media="(min-width:800px)" srcset="./images/weather-cutout.png">
-                <img src="./images/weather-cutout.png" alt="weather cut out">
-            </picture>
+                <figure>
+                    <img src="" alt="" id="weather-icon">
+                    <figcaption></figcaption>
+                </figure>
 
-            <p>Temperature: <span id="temperature">20</span>°F</p>
+            <p>Temperature: <span id="current-temp"></span> &deg;F</p>
 
             <hr>
 
-            <p>Wind Speed: <span id="speed">5</span> mph</p>
+            <p>Wind Speed: <span id="speed"></span> mph</p>
             <p>Wind Chill: <span id="windChill"></span>°F</p>
         </div>
 
         <div class="join cards">
-            <h2>Join us!</h2>
+            <h2><a href="join.html">Join us!</a></h2>
             <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
 
