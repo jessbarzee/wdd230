@@ -297,14 +297,14 @@ form legend {
     padding: 0 .5rem;
 }
 
- form label.top, form div {
+form label.top, form div {
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
     font-size: .8rem;
  }
 
- form label.top input, form label.top select {
+form label.top input, form label.top select {
     -webkit-appearance: none ;
     display: block;
     font-size: 16px;
@@ -317,7 +317,7 @@ form legend {
     background-color: rgb(0,0,0,0.1);
  }
 
- form label.sbs {
+form label.sbs {
     display: block;
     padding: 0.75rem 0;
     color: #555;
@@ -432,6 +432,17 @@ tr:nth-child(odd) td {
 .directory_cards img, h3, p {
     padding: 10px;
 }
+
+
+/* ------- Contact Page ------- */
+
+.contact_info {
+    margin: 2rem;
+    border: 1px solid #606c38;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
 
 /* ------- All Pages ------- */
 footer p {

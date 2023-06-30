@@ -106,14 +106,15 @@
         display: grid;
     }
 
-    .contact_form {
-        grid-column: 1/2;
+    .contact_main form fieldset {
         grid-row: 1/2;
+        grid-column: 1/2;
     }
 
     .contact_info {
-        grid-column: 2/3;
         grid-row: 1/2;
+        grid-column: 1/2;
     }
+
 
 }
