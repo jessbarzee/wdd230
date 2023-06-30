@@ -6,79 +6,88 @@
             "address": "107 Star View Circle Star Valley WY",
             "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
             "logo": "images/spruce_moose_logo.jpeg",
-            "membership_lvl": "Gold"
+            "membership_lvl": "Gold",
+            "description": "Spruce Moose Tree Farm is a locally owned tree farm that provides all trees, bushes, shrubs, and flowers that are domestic to the area. The owner has been gardening and landscaping his whole life and is very knowledgable about trees. Spruce Moose Tree Farm also specializes in special orders, so if you are looking for a particular plant, they can get it for you!"
         },
 
         {
             "businessName": "Bread House",
             "contactName": "Jessica Hansen",
             "address": "123 Rye Lane, Star Valley, WY 83127",
-            "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
+            "websiteurl": "www.breadhouse.com",
             "logo": "images/bread_house_logo.webp",
-            "membership_lvl": "Bronze"
+            "membership_lvl": "Bronze",
+            "description": " "
         },
         
         {
-            "businessName": "Star Valley Department of Energy",
+            "businessName": "Wyoming Department of Energy",
             "contactName": "Jeff Ashcraft",
             "address": "789 Lightning Ave, Star Valley, WY 83127",
-            "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
+            "websiteurl": "https://wyoenergy.org/",
             "logo": "images/deptofenergy_logo.png",
-            "membership_lvl": "Silver"
+            "membership_lvl": "Silver",
+            "description":""
         },
 
         {
             "businessName": "Feather Publishing",
             "contactName": "Judy Bloom",
             "address": "385 Parchment Road, Star Valley, WY 83217",
-            "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
+            "websiteurl": "https://www.featherpublising.com",
             "logo": "images/feather_publishing_logo.png",
-            "membership_lvl": "Gold"
+            "membership_lvl": "Gold",
+            "description":""
         },
 
         {
             "businessName": "Delle Folglie Marketing",
             "contactName": "Giulia Delle Folglie",
             "address": "825 Dandelion Loop, Star Valley, WY 83217",
-            "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
+            "websiteurl": "https://www.folgliemarketing.com",
             "logo": "images/marketing_logo.png",
-            "membership_lvl": "NP"
+            "membership_lvl": "NP",
+            "description":""
         },
 
         {
             "businessName": "Shield Insurance",
             "contactName": "Kelly Hammond",
             "address": "6289 Vista Drive, Star Valley, WY 83217",
-            "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
+            "websiteurl": "https://www.sheildinsurance.com",
             "logo": "images/shield_insurance_logo.png",
-            "membership_lvl": "Silver"
+            "membership_lvl": "Silver",
+            "description":""
         },
 
         {
             "businessName": "Star Valley Bank",
             "contactName": "Matthew Price",
             "address": "943 Mill Road, Star Valley, WY 83217",
-            "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
+            "websiteurl": "https://www.starvalleybank.com",
             "logo": "images/starvalley_bank_logo.png",
-            "membership_lvl": "Gold"
+            "membership_lvl": "Gold",
+            "description":""
         },
 
         {
             "businessName": "Peppy's Western Shop",
             "contactName": "Bart Maverick",
             "address": "909 Stallion Drive, Star Valley, WY 83217",
-            "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
+            "websiteurl": "https://www.peppywesternshop.com",
             "logo": "images/western_shop_logo.png",
-            "membership_lvl": "NP"
+            "membership_lvl": "NP",
+            "description":""
         },
 
         {
-            "businessName": "Law Firm",
+            "businessName": "Borcelle Law Firm",
             "contactName": "Milton Spaulding",
             "address": "638 Justice Ave, Star Valley, WY 83217",
-            "websiteurl": "https://www.facebook.com/p/Spruce-Moose-Tree-Farm-100083349130365/",
+            "websiteurl": "https://www.borcellelaw.com",
             "logo": "images/lawfrim_logo.png",
-            "membership_lvl": "Bronze"
+            "membership_lvl": "Bronze",
+            "description":""
         }
     ]
 }
