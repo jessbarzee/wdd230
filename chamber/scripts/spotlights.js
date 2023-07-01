@@ -28,13 +28,13 @@ const displayData = ((directory) => {
   directory.forEach((business) => {
     // Create elements to add to the div.cards element
     let card = document.createElement('section');
-    let h2 = document.createElement('h2');
+    let h3 = document.createElement('h3');
     let p = document.createElement('p');
     let a = document.createElement('a');
     let logo = document.createElement('img');
 
     // Build content 
-    h2.textContent = `${business[0].businessName}`;
+    h3.textContent = `${business[0].businessName}`;
     p.textContent =`${business[0].description}`;
     a.textContent =`Website: ${business[0].websiteurl}`;
     
@@ -51,7 +51,7 @@ const displayData = ((directory) => {
 
     // Append the section(card) with the created elements
     card.appendChild(logo);
-    card.appendChild(h2);
+    card.appendChild(h3);
     card.appendChild(p);
     card.appendChild(a)
     
