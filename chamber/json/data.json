@@ -16,8 +16,8 @@
             "address": "123 Rye Lane, Star Valley, WY 83127",
             "websiteurl": "www.breadhouse.com",
             "logo": "images/bread_house_logo.webp",
-            "membership_lvl": "Bronze",
-            "description": " "
+            "membership_lvl": "Silver",
+            "description": "Bread House Bakery has been in business in Star Valley since 1942. They specialize in pastires, cookies, cakes, and sourdough bread. They are proud to use all local and naturally grown fruits and vegetables in their pastries and are expert bakers. "
         },
         
         {
@@ -26,7 +26,7 @@
             "address": "789 Lightning Ave, Star Valley, WY 83127",
             "websiteurl": "https://wyoenergy.org/",
             "logo": "images/deptofenergy_logo.png",
-            "membership_lvl": "Silver",
+            "membership_lvl": "NP",
             "description":""
         },
 
@@ -37,7 +37,7 @@
             "websiteurl": "https://www.featherpublising.com",
             "logo": "images/feather_publishing_logo.png",
             "membership_lvl": "Gold",
-            "description":""
+            "description":"Feather Publishing is our newest member of the Chamber of Commerce. Established in 2019, they already made great strides in expanding their company and have published many well known young adult books."
         },
 
         {
@@ -46,8 +46,8 @@
             "address": "825 Dandelion Loop, Star Valley, WY 83217",
             "websiteurl": "https://www.folgliemarketing.com",
             "logo": "images/marketing_logo.png",
-            "membership_lvl": "NP",
-            "description":""
+            "membership_lvl": "Silver",
+            "description":"Delle Folglie Marketing is a family owned marketing business. They started their company in 2012 in Milan, Italy, but relocated to Star Valley in 2017 to be closer to their clients."
         },
 
         {
@@ -56,7 +56,7 @@
             "address": "6289 Vista Drive, Star Valley, WY 83217",
             "websiteurl": "https://www.sheildinsurance.com",
             "logo": "images/shield_insurance_logo.png",
-            "membership_lvl": "Silver",
+            "membership_lvl": "NP",
             "description":""
         },
 
@@ -67,7 +67,7 @@
             "websiteurl": "https://www.starvalleybank.com",
             "logo": "images/starvalley_bank_logo.png",
             "membership_lvl": "Gold",
-            "description":""
+            "description":"Star Valley Bank is the oldest member of the Chamber of Commerce, being a member since 1975. Being the only bank in Star Valley, they understand the struggle of small businesses and are willing to work one-on-one with our small business to help they stay financially stable. "
         },
 
         {
@@ -76,7 +76,7 @@
             "address": "909 Stallion Drive, Star Valley, WY 83217",
             "websiteurl": "https://www.peppywesternshop.com",
             "logo": "images/western_shop_logo.png",
-            "membership_lvl": "NP",
+            "membership_lvl": "Bronze",
             "description":""
         },
 
