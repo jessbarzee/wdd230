@@ -1,0 +1,89 @@
+header, main, footer{
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: Lato, 'Times New Roman', Times, serif;
+    
+}
+
+h1 {
+    font-family: Caprasimo, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#hamButton {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: fit-content;
+	font-size: 1.5rem;
+	padding: .5rem;
+    margin-bottom: 1rem;
+	color: black;
+}
+
+
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    display: none;
+	flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    font: 'Lato';
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a:hover {
+    
+    color: #f5a71d;
+    text-decoration: underline #63ab45;
+}
+
+.responsive li {
+	display: block;
+	width: 100%;
+}
+
+.mainnav.responsive li a {
+	display: block;
+}
+
+.orderNow {
+    text-align: center;
+    display: block;
+    background: #f6958b;
+    border: 1px solid #f6958b;
+    border-radius: 25px;
+}
+
+.orderNow a {
+    text-decoration: none;
+    color: black;
+}
+
+.orderNow:hover {
+    background-color: #63ab45;
+    border: 1px solid #63ab45;
+}
+
+.card {
+    border: 1px solid black;
+}

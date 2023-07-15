@@ -11,20 +11,136 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
+        <picture class="mainLogo">
+            <img src="images/bountiful_logo.webp" alt="Boutiful Foods Logo">
+        </picture>
+
+        <nav>
+            <button id="hamButton">&#9776;</button> 
+            <ul id="primaryNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="references.html">References</a></li>
+    
+            </ul>
+        </nav>
+
+        <h2 class="orderNow"><a href="fresh.html">Order Now!</a></h2>
 
     </header>
 
-    <main>
+    <main id="main-home">
+        <picture class="banner-img">
+            <img src="images/mixed-fruit.png" alt="MixedFruit">
+        </picture>
 
+        <div class="cards">
+
+            <div class="mix-drinks card">
+                <p>Mix your own drinks!</p>
+            </div>
+
+            <div class="contact-info card">
+                <h3>Get in Contact with us!</h3>
+                <p>
+                    Phone: (760) 543-6897 <br>
+                    Email: info@bountifulfoods.com <br>
+                    <br>
+                    3200 Ocean Street <br>
+                    Carlsbad, CA <br>
+                    92008
+                </p>
+            </div>
+
+            <div class="weather card">
+                <h3>Weather in Carlsbad, CA</h3>
+
+                <div class="day-1-weather">
+
+                    <figure>
+                        <img src="openweathermaps.org" alt="Weather Icon" id="weather-icon-1">
+                        <figcaption id="figcaption-1"></figcaption>
+                    </figure>
+
+                    <p>Date: <span id=date-1></span></p>
+
+                    <p>Temperature: <span id="current-temp-1"></span> &deg;F</p>
+
+                    <p>Humidity: <span id="humidity-1"></span>%</p>
+                    
+                    <hr>
+                </div>
+
+                <div class="day-2-weather">
+
+                    <figure>
+                        <img src="openweathermaps.org" alt="Weather Icon" id="weather-icon-2">
+                        <figcaption id="figcaption-2"></figcaption>
+                    </figure>
+
+                    <p>Date: <span id=date-2></span></p>
+
+                    <p>Temperature: <span id="current-temp-2"></span> &deg;F</p>
+
+                    <p>Humidity: <span id="humidity-2"></span>%</p>
+
+                    <hr>
+                </div>
+
+                <div class="day-3-weather">
+
+                    <figure>
+                        <img src="openweathermaps.org" alt="Weather Icon" id="weather-icon-3">
+                        <figcaption id=figcaption-3></figcaption>
+                    </figure>
+
+                    <p>Date: <span id=date-3></span></p>
+
+                    <p>Temperature: <span id="current-temp-3"></span> &deg;F</p>
+
+                    <p>Humidity: <span id="humidity-3"></span>%</p>
+
+                    <hr>
+                </div>
+            </div>
+
+            <div class="location-info card">
+                <h3>Carslbad City Beach</h3>
+
+                <picture>
+                    <img src="images/carlsbad-city-beach.jpg" alt="Carslbad City Beach">
+                </picture>
+
+                <p>
+                    Located just down the street from Bountiful Foods, Carlsbad City Beach is the place to be!
+                    The beach is owned by the State Park and offers free street parking. This park is perfect for a 
+                    date night stroll or a family picnic with a Bountiful Foods drink in hand! It's a must visit 
+                    location if you are planning on visiting Carlsbad,CA! 
+                </p>
+            </div>
+
+            <div class="num-of-drinks card">
+                <p>number of drinks ordered by customer</p>
+            </div>
+        </div>
     </main>
 
     <footer>
 
     </footer>
+
+    <!-- <script src="scripts/fruitData.js"></script> -->
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/weather.js"></script>
     
 </body>
 </html>

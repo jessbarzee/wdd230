@@ -1,0 +1,67 @@
+@media only screen and (min-width: 1100px) {
+    nav ul#primaryNav{
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+		display: block;
+		flex: 1 1 auto;
+	}
+
+    nav ul li a {
+        text-decoration: none;
+    }
+
+    #hamButton {
+		display: none;
+	} 
+
+    header {
+        display: grid;
+        /* display: flex; */
+    }
+
+    .mainLogo {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding:20px 10px 10px 0px;
+
+    }
+
+    nav {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        padding: 80px 0px 10px 0px;
+
+    }
+
+    .orderNow{
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+
+    .main-home {
+        display: grid;
+    }
+
+    .banner-img {
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+
+    .weather {
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+
+    .contact-info {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+}
