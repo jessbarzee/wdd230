@@ -22,7 +22,6 @@ h1 {
 	color: black;
 }
 
-
 nav button {
     margin: .2rem 2vw;
     background-color: transparent;
@@ -55,6 +54,7 @@ nav ul.open {
 nav ul li a:hover {
     background-color: #eec03a;
     border: 1px solid #eec03a;
+    box-shadow: 5px 5px 10px #caa431;
     border-radius: 25px;
 }
 
@@ -66,6 +66,8 @@ nav ul li a:hover {
 .mainnav.responsive li a {
 	display: block;
 }
+
+/* ----- Homepage ------ */
 
 .orderNow {
     text-align: center;
@@ -83,6 +85,7 @@ nav ul li a:hover {
 .orderNow:hover {
     background-color: #63ab45;
     border: 1px solid #63ab45;
+    box-shadow: 5px 5px 10px #508837;
 }
 
 /* .card {
@@ -104,6 +107,7 @@ nav ul li a:hover {
     background-color: #eec03a;
     border: 1px solid #eec03a;
     border-radius: 25px;
+    box-shadow: 10px 10px 15px #caa431;
 }
 
 .weather {
@@ -139,10 +143,28 @@ nav ul li a:hover {
     padding-left: 5px;
 }
 
+/* ------ Footer ------ */
+
 footer {
     text-align: center;
     color: white;
     background-color: #63ab45;
     border: 1px solid #63ab45;
     border-radius: 25px 25px 0 0 ;
+
+    display: grid;
 }
+
+.footer-elmnt {
+    padding: 10px;
+}
+
+.footer-contact a {
+    color: white;
+}
+
+.address {
+    color: white;
+}
+
+
