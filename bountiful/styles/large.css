@@ -46,22 +46,45 @@
         grid-column: 3/4;
     }
 
-    .main-home {
-        display: grid;
-    }
-
-    .banner-img {
+    .num-of-drinks {
         grid-column: 1/5;
         grid-row: 1/2;
     }
 
     .weather {
-        grid-column: 2/4;
+        grid-column: 2/5;
+        grid-row: 2/3;
+        display: grid;
+    }
+
+    .weather h3 {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    
+    .day1-weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    } 
+    
+    .day2-weather {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    
+    .day3-weather {
+        grid-column: 3/4;
         grid-row: 2/3;
     }
 
     .contact-info {
         grid-column: 1/2;
-        grid-row: 2/3;
+        grid-row: 2/5;
     }
+
+    .location-info {
+        grid-column: 2/5;
+        grid-row: 3/4;
+    }
+    
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="WDD 230 Final Project for Jessica Hansen: Bountiful Foods Homepage">
     <title>Bountiful Foods Home</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
@@ -38,40 +38,49 @@
 
     </header>
 
-    <main id="main-home">
+    <main class="main-home">
         <picture class="banner-img">
             <img src="images/mixed-fruit.png" alt="MixedFruit">
         </picture>
 
         <div class="cards">
 
-            <div class="mix-drinks card">
+            <!-- <div class="mix-drinks card">
                 <p>Mix your own drinks!</p>
+            </div> -->
+
+            <div class="num-of-drinks card">
+                <p>It has been  <span class="visit"></span> days since your last visit</p>
             </div>
 
             <div class="contact-info card">
                 <h3>Get in Contact with us!</h3>
-                <p>
-                    Phone: (760) 543-6897 <br>
-                    Email: info@bountifulfoods.com <br>
-                    <br>
-                    3200 Ocean Street <br>
-                    Carlsbad, CA <br>
-                    92008
-                </p>
+
+                <img class="citrus" src="images/lime.png" alt="lime slice">
+
+                    <p>Phone: +1(760) 543-6897</p>
+                    <img class="citrus" src="images/orange.png" alt="orange slice">
+                    <p>Email: info@bountifulfoods.com </p> 
+                    <img class="citrus" src="images/lime.png" alt="lime slice">
+                    <p>
+                        Bountful Foods
+                        3200 Ocean Street <br>
+                        Carlsbad, CA <br>
+                        92008
+                    </p>    
             </div>
 
             <div class="weather card">
                 <h3>Weather in Carlsbad, CA</h3>
 
-                <div class="day-1-weather">
+                <div class="day1-weather days">
 
                     <figure>
                         <img src="openweathermaps.org" alt="Weather Icon" id="weather-icon-1">
                         <figcaption id="figcaption-1"></figcaption>
                     </figure>
 
-                    <p>Date: <span id=date-1></span></p>
+                    <p><span id=date-1></span></p>
 
                     <p>Temperature: <span id="current-temp-1"></span> &deg;F</p>
 
@@ -80,14 +89,14 @@
                     <hr>
                 </div>
 
-                <div class="day-2-weather">
+                <div class="day2-weather days">
 
                     <figure>
                         <img src="openweathermaps.org" alt="Weather Icon" id="weather-icon-2">
                         <figcaption id="figcaption-2"></figcaption>
                     </figure>
 
-                    <p>Date: <span id=date-2></span></p>
+                    <p> <span id=date-2></span></p>
 
                     <p>Temperature: <span id="current-temp-2"></span> &deg;F</p>
 
@@ -96,14 +105,14 @@
                     <hr>
                 </div>
 
-                <div class="day-3-weather">
+                <div class="day3-weather days">
 
                     <figure>
                         <img src="openweathermaps.org" alt="Weather Icon" id="weather-icon-3">
                         <figcaption id=figcaption-3></figcaption>
                     </figure>
 
-                    <p>Date: <span id=date-3></span></p>
+                    <p> <span id=date-3></span></p>
 
                     <p>Temperature: <span id="current-temp-3"></span> &deg;F</p>
 
@@ -128,19 +137,37 @@
                 </p>
             </div>
 
-            <div class="num-of-drinks card">
-                <p>number of drinks ordered by customer</p>
-            </div>
         </div>
     </main>
 
     <footer>
 
+        <div class="footer_logo">
+            <img src="images/bountiful_logo.webp" alt="Bountiful Foods Logo">
+        </div>
+
+        <div class="address">
+            <p>Bountiful Foods <br> 3200 Ocean Street <br> Carlsbad, CA 92008</p>
+        </div>
+
+        <div class="contact_map">
+            <p>info@bountifulfoods.com <br> +1(760) 543-6897</p>
+            <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215196,-117.287802,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24?entry=ttu"><img src="images/location-pin.png" alt="location pin image">Location Info</a>
+            <br>
+            <br>
+            <a href="https://openweathermap.org/">OpenWeatherMaps.org</a>
+        </div>
+
+        <div class="copyright">
+            <p> &copy;2023 Bountiful Foods | Jessica L. Hansen | WDD 230 Final Project | <span id='lastupdated'></span> </p>
+         </div>
     </footer>
 
     <!-- <script src="scripts/fruitData.js"></script> -->
     <script src="scripts/menu.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/dateModified.js"></script>
     
 </body>
 </html>

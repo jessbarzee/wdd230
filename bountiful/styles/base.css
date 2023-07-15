@@ -41,6 +41,7 @@ nav ul {
 
 nav ul li a {
     display: block;
+    text-align: center;
     padding: .8rem 2vw;
     text-decoration: none;
     color: black;
@@ -52,9 +53,9 @@ nav ul.open {
 }
 
 nav ul li a:hover {
-    
-    color: #f5a71d;
-    text-decoration: underline #63ab45;
+    background-color: #eec03a;
+    border: 1px solid #eec03a;
+    border-radius: 25px;
 }
 
 .responsive li {
@@ -84,6 +85,64 @@ nav ul li a:hover {
     border: 1px solid #63ab45;
 }
 
-.card {
+/* .card {
     border: 1px solid black;
+} */
+
+.cards {
+    display: grid;
+}
+
+.card {
+    padding: 20px;
+}
+
+.num-of-drinks {
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    background-color: #eec03a;
+    border: 1px solid #eec03a;
+    border-radius: 25px;
+}
+
+.weather {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.contact-info img {
+    width: 100px;
+    height: auto;
+}
+
+.contact-info p {
+    padding: 0 10px 0 10px;
+}
+
+.days {
+    padding: 0 50px 0 50px;
+}
+
+.location-info {
+    text-align: center;
+}
+
+.location-info p {
+    border-left: 5px solid #63ab45;
+    padding-left: 5px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #63ab45;
+    border: 1px solid #63ab45;
+    border-radius: 25px 25px 0 0 ;
 }

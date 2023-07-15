@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="WDD 230 Final Project for Jessica Hansen: Bountiful Foods Homepage">
+    <title>Bountiful Foods Home</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <picture class="mainLogo">
+            <img src="images/bountiful_logo.webp" alt="Boutiful Foods Logo">
+        </picture>
+
+        <nav>
+            <button id="hamButton">&#9776;</button> 
+            <ul id="primaryNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="references.html">References</a></li>
+    
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <form method="get">
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required ></label>
+                <label class="top">Cellphone* <input type="tel" name="cellphone" placeholder="12345551234" required></label>
+                <label><input type="hidden" name="dateSubmitted" value="todayDate"></label>
+            </fieldset>
+            <fieldset>
+                
+            </fieldset>
+            <input type="submit" value="Send Order for Pickup!" class="submitButton">
+        </form>
+    </main>
+
+    <footer>
+
+        <div class="footer_logo">
+            <img src="images/bountiful_logo.webp" alt="Bountiful Foods Logo">
+        </div>
+
+        <div class="address">
+            <p>Bountiful Foods <br> 3200 Ocean Street <br> Carlsbad, CA 92008</p>
+        </div>
+
+        <div class="contact_map">
+            <p>info@bountifulfoods.com <br> +1(760) 543-6897</p>
+            <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215196,-117.287802,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24?entry=ttu"><img src="images/location-pin.png" alt="location pin image">Location Info</a>
+            <br>
+            <br>
+            <a href="https://openweathermap.org/">OpenWeatherMaps.org</a>
+        </div>
+
+        <div class="copyright">
+            <p> &copy;2023 Bountiful Foods | Jessica L. Hansen | WDD 230 Final Project | <span id='lastupdated'></span> </p>
+         </div>
+    </footer>
+    
+</body>
+</html>
