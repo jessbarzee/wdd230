@@ -102,6 +102,7 @@ nav ul li a:hover {
 
 .num-of-drinks {
     text-align: center;
+    justify-content: center;
     letter-spacing: 2px;
     word-spacing: 8px;
     background-color: #eec03a;
