@@ -16,16 +16,10 @@ const displayData = ((fruits) => {
       // Create elements to add to the div.cards element
       let element = document.createElement('fieldset');
       let fruit_name = document.createElement('input');
-      // let p = document.createElement('p');
-      // let p2 = document.createElement('p');
-      // let a = document.createElement('a');
-      // let logo = document.createElement('img');
+      
   
       // Build the h2 content out to show the prophet's full name - finish the template string
       fruit_name.textContent = `${fruit.name}`;
-      // p.textContent =`${business.address}`;
-      // p2.textContent =`Membership Level: ${business.membership_lvl}`;
-      // a.textContent=`Website: ${business.websiteurl}`;
       
   
       // Build the image portrait by setting all the relevant attribute
@@ -40,10 +34,6 @@ const displayData = ((fruits) => {
   
       // Append the section(card) with the created elements
       element.appendChild(fruit_name);
-      // element.appendChild(h3);
-      // element.appendChild(p2);
-      // element.appendChild(p);
-      // element.appendChild(a)
       
   
       elements.appendChild(element);
