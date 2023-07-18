@@ -23,7 +23,7 @@ const weatherIcon3 = document.querySelector('#weather-icon-3');
 const captionDesc3 = document.querySelector('#figcaption-3');
 
 
-const url = 'http://api.openweathermap.org/data/2.5/forecast?lat=33.1581&lon=-117.3506&units=imperial&appid=8adace9cc107a4744eebee516233a46e';
+const url = 'https://api.openweathermap.org/data/2.5/forecast?lat=33.1581&lon=-117.3506&units=imperial&appid=8adace9cc107a4744eebee516233a46e';
 
 async function apiFetch() {
     try {
