@@ -41,4 +41,20 @@
         grid-row: 4/5;
     }
 
+    /* -----About Us ----- */
+    .careers {
+        display: grid;
+    }
+
+    .careers-info {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .careers-contact {
+        grid-column: 2/3;
+        grid-row: 1/2;
+       
+    }
+
 }
