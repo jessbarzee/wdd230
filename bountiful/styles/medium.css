@@ -55,6 +55,12 @@
         grid-column: 2/3;
         grid-row: 1/2;
        
+        border: 1px solid #508837;
+        border-radius: 25px;
+        padding: 5px;
+        color: white;
+        background-color: #508837;
+
     }
 
 }
