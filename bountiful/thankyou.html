@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 Final Project for Jessica Hansen: Bountiful Foods">
+    <title>Bountiful Foods</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <picture class="mainLogo">
+            <img src="images/bountiful_logo.webp" alt="Boutiful Foods Logo">
+        </picture>
+
+        <nav>
+            <button id="hamButton">&#9776;</button> 
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="#">About Us</a></li>
+    
+            </ul>
+        </nav>
+
+        <h2 class="orderNow"><a href="fresh.html">Order Now!</a></h2>
+
+    </header>
+
+    <main class="thankyou-main">
+        <picture class="banner-img">
+            <img src="images/mixed-fruit.png" alt="MixedFruit">
+        </picture>
+
+        <h2>Thank you for placing your order with Bountiful Foods!</h2>
+        <p>You should receive a confirmation text and email when your order is ready to be picked up.</p>
+        <p>We appreciate your business, please come again! </p>
+
+    </main>
+
+    <footer>
+
+        <div class="footer_logo footer-elmnt">
+            <img src="images/bountiful_logo.webp" alt="Bountiful Foods Logo">
+        </div>
+
+        <div class="address footer-elmnt">
+            <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215196,-117.287802,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24?entry=ttu"><img src="images/location-pin.png" alt="location pin image">Location Info</a>
+            <p>Bountiful Foods <br> 3200 Ocean Street <br> Carlsbad, CA 92008</p>
+        </div>
+
+        <div class="footer-contact footer-elmnt">
+            <p>info@bountifulfoods.com <br> +1(760) 543-6897</p>
+            <br>
+            <a href="https://openweathermap.org/">OpenWeatherMaps.org</a>
+        </div>
+
+        <div class="copyright footer-elmnt">
+            <hr>
+            <p> &copy;2023 Bountiful Foods | Jessica L. Hansen | WDD 230 Final Project | <span id='lastupdated'></span> </p>
+         </div>
+    </footer>
+
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/dateModified.js"></script>
+    
+</body>
+</html>

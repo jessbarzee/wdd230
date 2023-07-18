@@ -1,18 +1,10 @@
 header, main, footer{
     max-width: 1300px;
     margin: 0 auto;
-    font-family: Lato, 'Times New Roman', Times, serif;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
     
 }
 
-header {
-    box-shadow: 0px 15px 10px -15px #111;
-}
-
-h1 {
-    font-family: Caprasimo, 'Times New Roman', Times, serif;
-    text-align: center;
-}
 
 #hamButton {
 	display: block;
@@ -139,6 +131,10 @@ nav ul li a:hover {
     box-shadow: 10px 10px 15px #caa431;
 }
 
+.visit {
+    text-decoration: underline;
+}
+
 .weather {
     text-align: center;
 }
@@ -188,17 +184,19 @@ nav ul li a:hover {
     top: 300px;
 }
 
+
+
 /* -----Form ----- */
 form fieldset {
     margin: 2rem;
     border: 1px solid #f6958b;
     border-radius: 10px;
-    padding: .5rem, 20%;
+    padding: .5rem 20%;
 }
 
 form legend {
     color: black;
-    margin: 1 1rem;
+    margin: 1rem 1rem;
     padding: 0 .5rem;
 }
 
@@ -295,6 +293,12 @@ form label.top input:required:valid {
 
 .careers {
     border-color: #eec03a;
+}
+
+/* ---- Thank you Page----- */
+
+.thankyou-main {
+    text-align: center;
 }
 
 /* ------ Footer ------ */
