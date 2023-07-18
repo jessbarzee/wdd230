@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="WDD 230 Final Project for Jessica Hansen: Bountiful Foods Homepage">
+    <meta name="description" content="WDD 230 Final Project class Jessica Hansen: Bountiful Foods Homepage">
     <title>Bountiful Foods Home</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
@@ -28,14 +28,18 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Fresh</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="references.html">References</a></li>
     
             </ul>
         </nav>
 
     </header>
 
-    <main>
+    <main class="fresh-main">
+        <h2>Please fill out form below to customize your smoothie!</h2>
+        <picture class="banner-img">
+            <img src="images/mixed-fruit.png" alt="MixedFruit">
+        </picture>
+
         <form method="get">
             <fieldset>
                 <legend>Customer Information</legend>
@@ -44,10 +48,54 @@
                 <label class="top">Cellphone* <input type="tel" name="cellphone" placeholder="12345551234" required></label>
                 <label><input type="hidden" name="dateSubmitted" value="todayDate"></label>
             </fieldset>
+
+            <picture>
+                <img src="images/smoothie-banner.png" alt="">
+            </picture>
+
+            <fieldset>
+                <legend>Please Select up to 3 Fruits</legend>
+                <label class="sbs"><input type="checkbox" name="apple" value="yes">Apple</label>
+                <label class="sbs"><input type="checkbox" name="apricot" value="yes">Apricot</label>
+                <label class="sbs"><input type="checkbox" name="avocado" value="yes">Avocado</label>
+                <label class="sbs"><input type="checkbox" name="banana" value="yes">Banana</label>
+                <label class="sbs"><input type="checkbox" name="blackberry" value="yes">Blackberry</label>
+                <label class="sbs"><input type="checkbox" name="blueberry" value="yes">Blueberry</label>
+                <label class="sbs"><input type="checkbox" name="cherry" value="yes">Cherry</label>
+                <label class="sbs"><input type="checkbox" name="dragonfruit" value="yes">Dragonfruit</label>
+                <label class="sbs"><input type="checkbox" name="durian" value="yes">Durian</label>
+                <label class="sbs"><input type="checkbox" name="feijoa" value="yes">Feijoa</label>
+                <label class="sbs"><input type="checkbox" name="fig" value="yes">Fig</label>
+                <label class="sbs"><input type="checkbox" name="goosenberry" value="yes">Gooseberry</label>
+                <label class="sbs"><input type="checkbox" name="grape" value="yes">Grape</label>
+                <label class="sbs"><input type="checkbox" name="greenapple" value="yes">Green Apple</label>
+                <label class="sbs"><input type="checkbox" name="kiwi" value="yes">Kiwi</label>
+                <label class="sbs"><input type="checkbox" name="lemon" value="yes">Lemon</label>
+                <label class="sbs"><input type="checkbox" name="lime" value="yes">Lime</label>
+                <label class="sbs"><input type="checkbox" name="ligonberry" value="yes">Ligonberry</label>
+                <label class="sbs"><input type="checkbox" name="lychee" value="yes">Lychee</label>
+                <label class="sbs"><input type="checkbox" name="mango" value="yes">Mango</label>
+                <label class="sbs"><input type="checkbox" name="morus" value="yes">Morus</label>
+                <label class="sbs"><input type="checkbox" name="orange" value="yes">Orange</label>
+                <label class="sbs"><input type="checkbox" name="papaya" value="yes">Papaya</label>
+                <label class="sbs"><input type="checkbox" name="passionfruit" value="yes">Passionfruit</label>
+                <label class="sbs"><input type="checkbox" name="pear" value="yes">Pear</label>
+                <label class="sbs"><input type="checkbox" name="persimmon" value="yes">Persimmon</label>
+                <label class="sbs"><input type="checkbox" name="pineapple" value="yes">Pineapple </label>
+                <label class="sbs"><input type="checkbox" name="pithahaya" value="yes">Pitahaya</label>
+                <label class="sbs"><input type="checkbox" name="plum" value="yes">Plum</label>
+                <label class="sbs"><input type="checkbox" name="pomegranate" value="yes">Pomegranate</label>
+                <label class="sbs"><input type="checkbox" name="raspberry" value="yes">Raspberry</label>
+                <label class="sbs"><input type="checkbox" name="strawberry" value="yes">Strawberry</label>
+                <label class="sbs"><input type="checkbox" name="tangerine" value="yes">Tangerine</label>
+                <label class="sbs"><input type="checkbox" name="tomato" value="yes">Tomato</label>
+                <label class="sbs"><input type="checkbox" name="watermelon" value="yes">Watermelon</label>
+
+            </fieldset>
                 
             <div class="elements"></div>
 
-            <input type="submit" value="Send Order for Pickup!" class="submitButton">
+            <input type="submit" value="Place my order!" class="submitButton">
         </form>
     </main>
 

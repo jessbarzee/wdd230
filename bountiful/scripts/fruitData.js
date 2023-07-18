@@ -1,13 +1,14 @@
+// const url = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
 const url = 'https://jessbarzee.github.io/wdd230/bountiful/json/fruit.json';
 
 async function getFruitData() {
-    const response = await fetch(url);
-    const data = await response.json();
-    //console.table(data.fruits);  // note that we reference the prophet array of the data object given the structure of the json file
-    displayData(data.fruits);
-  }
-  
-  getFruitData();
+  const response = await fetch(url);
+  const data = await response.json();
+  //console.table(data.fruits);  // note that we reference the prophet array of the data object given the structure of the json file
+  displayData(data.fruits);
+}
+
+getFruitData();
 
 const displayData = ((fruits) => {
      const elements = document.querySelector('div.elements'); // select the output container element
@@ -30,7 +31,11 @@ const displayData = ((fruits) => {
       // logo.setAttribute('height', 'auto');
       
 
-      // a.setAttribute('href', directory.websiteurl);
+      fruit_name.setAttribute('class', 'sbs');
+      fruit_name.setAttribute('type', 'radio')
+      fruit_name.setAttribute('name', fruit.name)
+      fruit_name.setAttribute('value', 'yes')
+
   
       // Append the section(card) with the created elements
       element.appendChild(fruit_name);

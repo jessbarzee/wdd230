@@ -1,5 +1,11 @@
 @media only screen and (min-width: 800px) {
 
+    .make-drinks {
+        top: 250px;
+        right: 300px;
+    
+    }
+
     .num-of-drinks {
         grid-column: 1/5;
         grid-row: 1/2;
@@ -13,7 +19,7 @@
 
     .weather h3 {
         grid-column: 1/4;
-        grid-row: 2/3;
+        grid-row: 1/2;
     }
     
     .day1-weather {
@@ -41,7 +47,21 @@
         grid-row: 4/5;
     }
 
+    /* Fresh */
+   
+
+    .fresh-main h2 {
+        top: 300px;
+        right: 300px;
+    }
+
     /* -----About Us ----- */
+
+    .about-main h2 {
+        top: 350px;
+        right: 375px;
+    }
+
     .careers {
         display: grid;
     }

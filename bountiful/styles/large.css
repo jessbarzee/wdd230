@@ -41,6 +41,11 @@
 
     }
 
+    .make-drinks {
+        top: 250px;
+        right: 550px;
+    }
+
     .orderNow{
         grid-row: 2/3;
         grid-column: 3/4;
@@ -87,6 +92,13 @@
         grid-row: 3/4;
     }
 
+    /* fresh */
+    .fresh-main h2 {
+        top: 300px;
+        right: 425px;
+    
+    }
+
     /* Footer */
 
     .address {
@@ -106,6 +118,14 @@
     .copyright {
         grid-column: 1/4;
         grid-row: 3/4;
+    }
+
+    /* -----About us ----- */
+    
+    .about-main h2 {
+        top: 375px;
+        right: 600px;
+
     }
 
     
