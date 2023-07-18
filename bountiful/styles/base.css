@@ -5,6 +5,10 @@ header, main, footer{
     
 }
 
+header {
+    box-shadow: 0px 15px 10px -15px #111;
+}
+
 h1 {
     font-family: Caprasimo, 'Times New Roman', Times, serif;
     text-align: center;
@@ -142,6 +146,49 @@ nav ul li a:hover {
 .location-info p {
     border-left: 5px solid #63ab45;
     padding-left: 5px;
+}
+
+/* ------ Fresh Page ------ */
+
+/* ------ About Us ------ */
+
+.about-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-main h2 {
+    text-align: center;
+}
+
+.about-cards {
+    margin: 5px;
+    padding: 5px;
+    border-left: 5px solid;
+}
+
+.about-cards h3 {
+    text-decoration: underline;
+}
+
+.about-cards p {
+    line-height: 30px;
+}
+
+.mission {
+    border-color: #eec03a;
+}
+
+.history {
+    border-color: #f6958b;
+}
+
+.farms {
+    border-color: #63ab45;
+}
+
+.careers {
+    border-color: #eec03a;
 }
 
 /* ------ Footer ------ */
